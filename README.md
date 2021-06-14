@@ -17,7 +17,7 @@ podman run -d --name MM-01 \
 -v $PWD/modules:/opt/MagicMirror/modules:Z \
 -v $PWD/css/custom.css:/opt/MagicMirror/css/custom.css:Z \
 -p 12345:8080 \
-localhost/magicmirror
+docker.io/tekappsrl/yamm-yet-another-magic-mirror-container-image:latest
 ```
 ---
 #### Getting Started (Hard Way)
