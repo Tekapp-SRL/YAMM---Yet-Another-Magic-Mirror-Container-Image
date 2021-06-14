@@ -1,0 +1,19 @@
+{
+    set auto_https off
+}
+
+mm01.magicmirror.lan {
+    reverse_proxy MM-01:8080
+}
+
+mm02.magicmirror.lan {
+    reverse_proxy MM-02:8080
+}
+
+mm03.magicmirror.lan {
+    reverse_proxy MM-03:8080
+}
+
+mm04.magicmirror.lan {
+    reverse_proxy MM-04:8080
+}
