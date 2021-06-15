@@ -1,4 +1,4 @@
-name: ci
+name: CI_Container_build_tag
 
 on:
   schedule:
@@ -26,8 +26,8 @@ jobs:
         with:
           # list of Docker images to use as base name for tags
           images: |
-            name/app
-            ghcr.io/username/app
+            tekappsrl/yamm-yet-another-magic-mirror-container-image
+            
           # generate Docker tags based on the following events/attributes
           tags: |
             type=schedule
@@ -50,14 +50,6 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USER }}
           password: ${{ secrets.DOCKER_PASSWORD }}
-      -
-        name: Login to GHCR
-        if: github.event_name != 'pull_request'
-        uses: docker/login-action@v1
-        with:
-          registry: ghcr.io
-          username: ${{ github.repository_owner }}
-          password: ${{ secrets.GITHUB_TOKEN }}
       -
         name: Build and push
         uses: docker/build-push-action@v2
