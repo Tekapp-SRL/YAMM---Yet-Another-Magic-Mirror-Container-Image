@@ -6,7 +6,7 @@ if [ ! "$(ls -A /opt/MagicMirror/modules)" ]; then
 fi
 
 if [ ! "$(ls -A /opt/MagicMirror/config)" ]; then
-    wget https://github.com/Tekapp-SRL/YAMM---Yet-Another-Magic-Mirror-Container-Image/blob/master/config/config.js -P /opt/MagicMirror
+    wget https://github.com/Tekapp-SRL/YAMM---Yet-Another-Magic-Mirror-Container-Image/blob/master/config/config.js -P /opt/MagicMirror/config
 fi
 
 exec "$@"
