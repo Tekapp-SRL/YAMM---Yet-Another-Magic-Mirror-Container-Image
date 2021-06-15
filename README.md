@@ -39,9 +39,7 @@ docker.io/tekappsrl/yamm-yet-another-magic-mirror-container-image:latest
 ---
 #### Getting Started (Hard Way)
 
-```
-Please see hardway/multiple-run.sh
-```
+[5Minutes-4MagicMirrorSystemSetup](https://github.com/Tekapp-SRL/YAMM---Yet-Another-Magic-Mirror-Container-Image/tree/master/hardway)
 ---
 
 #### Compatibility Check
