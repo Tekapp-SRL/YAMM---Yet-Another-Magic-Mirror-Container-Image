@@ -1,6 +1,20 @@
 ### YAMM - Yet Another Magic Mirror Container Image
 
-[![CI_Container_build_and_creation](https://github.com/Tekapp-SRL/YAMM---Yet-Another-Magic-Mirror-Container-Image/actions/workflows/CI_Container_build_and_creation.yml/badge.svg)](https://github.com/Tekapp-SRL/YAMM---Yet-Another-Magic-Mirror-Container-Image/actions/workflows/CI_Container_build_and_creation.yml)
+|  Github Actions           | Result  |
+|---            |---      |
+| Dockerhub     | [![CI_Container_build_and_creation](https://github.com/Tekapp-SRL/YAMM---Yet-Another-Magic-Mirror-Container-Image/actions/workflows/CI_Container_build_and_creation.yml/badge.svg)](https://github.com/Tekapp-SRL/YAMM---Yet-Another-Magic-Mirror-Container-Image/actions/workflows/CI_Container_build_and_creation.yml)     |
+| Pre-release    | [![pre-release](https://github.com/Tekapp-SRL/YAMM---Yet-Another-Magic-Mirror-Container-Image/actions/workflows/CI_Pre_Release.yml/badge.svg)](https://github.com/Tekapp-SRL/YAMM---Yet-Another-Magic-Mirror-Container-Image/actions/workflows/CI_Pre_Release.yml)      |
+| Release     | [![release](https://github.com/Tekapp-SRL/YAMM---Yet-Another-Magic-Mirror-Container-Image/actions/workflows/CI_Release.yml/badge.svg)](https://github.com/Tekapp-SRL/YAMM---Yet-Another-Magic-Mirror-Container-Image/actions/workflows/CI_Release.yml)      |
+
+
+
+
+
+
+
+
+
+
 
 Based on RHEL UBI 8 (Universal Base Image) "Another Magic Mirror Container Image" is available for RHEL / CentOS / Fedora Enviroment.
 
