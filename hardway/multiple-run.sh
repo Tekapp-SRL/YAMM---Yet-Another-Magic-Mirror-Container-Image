@@ -14,7 +14,7 @@ podman run -d --name MM-Caddy \
 podman run -d --name MM-01 \
 --restart=always \
 --pod=MagicMirror \
--v $PWD/config:/opt/MagicMirror/config:z \
+-v $PWD/MM-01/config:/opt/MagicMirror/config:z \
 -v $PWD/modules:/opt/MagicMirror/modules:z \
 -v $PWD/css/custom.css:/opt/MagicMirror/css/custom.css:z \
 localhost/magicmirror;
@@ -22,7 +22,7 @@ localhost/magicmirror;
 podman run -d --name MM-02 \
 --restart=always \
 --pod=MagicMirror \
--v $PWD/config:/opt/MagicMirror/config:z \
+-v $PWD/MM-02/config:/opt/MagicMirror/config:z \
 -v $PWD/modules:/opt/MagicMirror/modules:z \
 -v $PWD/css/custom.css:/opt/MagicMirror/css/custom.css:z \
 localhost/magicmirror;
@@ -30,7 +30,7 @@ localhost/magicmirror;
 podman run -d --name MM-03 \
 --restart=always \
 --pod=MagicMirror \
--v $PWD/config:/opt/MagicMirror/config:z \
+-v $PWD/MM-03/config:/opt/MagicMirror/config:z \
 -v $PWD/modules:/opt/MagicMirror/modules:z \
 -v $PWD/css/custom.css:/opt/MagicMirror/css/custom.css:z \
 localhost/magicmirror;
@@ -38,7 +38,7 @@ localhost/magicmirror;
 podman run -d --name MM-04 \
 --restart=always \
 --pod=MagicMirror \
--v $PWD/config:/opt/MagicMirror/config:z \
+-v $PWD/MM-04/config:/opt/MagicMirror/config:z \
 -v $PWD/modules:/opt/MagicMirror/modules:z \
 -v $PWD/css/custom.css:/opt/MagicMirror/css/custom.css:z \
 localhost/magicmirror;
