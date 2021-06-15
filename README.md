@@ -11,6 +11,9 @@ Original Magic Mirror: https://github.com/MichMich/MagicMirror
 #### Getting Started (Easy Way)
 
 ```
+mkdir config css modules
+touch css/custom.css
+
 podman run -d --name MM-01 \
 --restart=always \
 -v $PWD/config:/opt/MagicMirror/config:Z \
