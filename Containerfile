@@ -5,7 +5,7 @@ RUN useradd -ms /bin/bash tecnico && usermod -aG wheel tecnico
 
 RUN dnf update -y
 
-RUN dnf install -y git nss at-spi2-atk libX11-xcb gdk-pixbuf2 gtk3 libdrm mesa-libgbm alsa-lib
+RUN dnf install -y git nss at-spi2-atk libX11-xcb gdk-pixbuf2 gtk3 libdrm mesa-libgbm alsa-lib wget 
 
 RUN dnf install -y gcc-c++ make
 RUN curl -sL https://raw.githubusercontent.com/nodesource/distributions/master/rpm/setup_16.x| bash -  
