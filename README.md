@@ -50,5 +50,5 @@ Please see hardway/multiple-run.sh
 |---            |---      |
 | RHEL 8.4      | ✔️       |
 | CentOS 8.3    | ❓      |
-| Fedora 33     | ❓      |
+| Fedora 33     | ✔️       |
 | Fedora 34     | ❓      |
