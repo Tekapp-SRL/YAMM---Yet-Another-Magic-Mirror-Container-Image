@@ -49,4 +49,4 @@ docker.io/tekappsrl/yamm-yet-another-magic-mirror-container-image:latest
 | RHEL 8.4      | ✔️       |
 | CentOS 8.3    | ❓      |
 | Fedora 33     | ✔️       |
-| Fedora 34     | ❓      |
+| Fedora 34     | ✔️       |
