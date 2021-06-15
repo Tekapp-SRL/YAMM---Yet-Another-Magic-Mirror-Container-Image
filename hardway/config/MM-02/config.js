@@ -58,7 +58,7 @@ var config = {
 				calendars: [
 					{
 						symbol: "calendar-check",
-						url: "webcal://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics"					}
+						url: "https://www.thunderbird.net/media/caldata/ItalianHolidays.ics"					}
 				]
 			}
 		},

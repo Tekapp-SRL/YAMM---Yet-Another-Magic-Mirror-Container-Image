@@ -26,7 +26,7 @@ RUN mv config/config.js.sample config/config.js
 
 RUN npm install --silent
 
-EXPOSE 8080
+#EXPOSE 8080
 
 RUN dnf clean all && rm -rf /var/cache/yum
 

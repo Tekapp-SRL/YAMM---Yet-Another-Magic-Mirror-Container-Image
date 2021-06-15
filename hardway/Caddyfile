@@ -1,19 +1,19 @@
 {
-    set auto_https off
+    auto_https off
 }
 
-mm01.magicmirror.lan {
-    reverse_proxy MM-01:8080
+mm01.magicmirror.lan:80 {
+    reverse_proxy <replace_with_host_ip>:10001
 }
 
-mm02.magicmirror.lan {
-    reverse_proxy MM-02:8080
+mm02.magicmirror.lan:80 {
+    reverse_proxy <replace_with_host_ip>:10002
 }
 
-mm03.magicmirror.lan {
-    reverse_proxy MM-03:8080
+mm03.magicmirror.lan:80 {
+    reverse_proxy <replace_with_host_ip>:10003
 }
 
-mm04.magicmirror.lan {
-    reverse_proxy MM-04:8080
+mm04.magicmirror.lan:80 {
+    reverse_proxy <replace_with_host_ip>:10004
 }
