@@ -2,7 +2,7 @@
 
 sudo sysctl net.ipv4.ip_unprivileged_port_start=79 
 
-mkdir config css modules mkdir
+mkdir config css modules misc
 touch css/custom.css
 
 podman run -d --name MM-Caddy \
