@@ -25,7 +25,7 @@ Original Magic Mirror: https://github.com/MichMich/MagicMirror
 #### Getting Started (Easy Way)
 
 ```
-mkdir config css modules
+mkdir config css modules misc
 touch css/custom.css
 
 podman run -d --name MM-01 \
@@ -33,6 +33,7 @@ podman run -d --name MM-01 \
 -v $PWD/config:/opt/MagicMirror/config:Z \
 -v $PWD/modules:/opt/MagicMirror/modules:Z \
 -v $PWD/css/custom.css:/opt/MagicMirror/css/custom.css:Z \
+-v $PWD/misc:/opt/MagicMirror/misc:z \
 -p 12345:8080 \
 docker.io/tekappsrl/yamm-yet-another-magic-mirror-container-image:latest
 ```
