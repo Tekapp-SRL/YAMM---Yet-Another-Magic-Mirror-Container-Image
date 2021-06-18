@@ -2,6 +2,8 @@
 
 sudo sysctl net.ipv4.ip_unprivileged_port_start=79 
 
+mkdir caddy_data
+curl https://raw.githubusercontent.com/Tekapp-SRL/YAMM---Yet-Another-Magic-Mirror-Container-Image/master/hardway/Caddyfile -o Caddyfile
 mkdir config css modules misc
 touch css/custom.css
 
