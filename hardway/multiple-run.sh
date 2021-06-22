@@ -65,8 +65,8 @@ podman generate systemd MM-04 -f -n;
 
 systemctl daemon-reload;
 
-systemctl enable MM-Caddy;
-systemctl enable MM-01;
-systemctl enable MM-02;
-systemctl enable MM-03;
-systemctl enable MM-04;
+systemctl enable container-MM-Caddy.service;
+systemctl enable container-MM-01.service;
+systemctl enable container-MM-02.service;
+systemctl enable container-MM-03.service;
+systemctl enable container-MM-04.service;
